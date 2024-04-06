@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="
+
+    const computerMove = Math.random();
+
+    let result = ''; 
+     if(computerMove >= 0 && computerMove < 0.5)
+     {
+      result = 'Head';
+     }
+     else if (computerMove => 0.6 && computerMove < 1)
+     {
+        result = 'Tails';
+     }
+     
+    //  console.log(`Computer move ${result}`);
+
+      let Move = '';
+     if(result === 'Head')
+     {
+        Move = 'You win';
+     }
+     else if (result === 'Tails')
+     {
+        Move = 'You lose';
+     }
+
+     alert(`Computer pick ${result}, ${Move}`);
+
+    ">Head</button>   
+
+
+    <button onclick="
+     const computerMove = Math.random();
+
+let result = ''; 
+ if(computerMove >= 0 && computerMove < 0.5)
+ {
+  result = 'Head';
+ }
+ else if (computerMove => 0.6 && computerMove < 1)
+ {
+    result = 'Tails';
+ }
+ 
+//  console.log(`Computer move ${result}`);
+
+  let Move = '';
+ if(result === 'Head')
+ {
+    Move = 'You Lose';
+ }
+ else if (result === 'Tails')
+ {
+    Move = 'You Win';
+ }
+
+ alert(`Computer pick ${result}, ${Move}`);
+
+    ">Tails</button>
+</body>
+</html>
